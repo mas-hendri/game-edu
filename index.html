@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME EDUKASI PARIWISATA</title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <link rel="icon" href="img/favicon-32x32.png" type="image/png" sizes="32x32">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Signika+Negative&display=swap"
+        rel="stylesheet">
+    <script language="javascript">
+        function pop_up() {
+            document.getElementById("close").style.display = "none";
+        }
+    </script>
+    <script language="javascript">
+        function game() {
+            document.getElementById("tblstar").style.display = "";
+        }
+    </script>
+</head>
+
+<body>
+    <div id="close">
+        <div class="container-popup">
+            <img src="img/popup2.png">
+            <br>
+            <a class="close" href="#" onclick="pop_up();">Tutup</a>
+        </div>
+    </div>
+    <!-- header -->
+    <div id="home"></div>
+    <div class="fixed">
+        <header>
+            <div class="container">
+                <img src="img/logo.png">
+                <div class="navbar">
+                    <nav>
+                        <label for="check" class="mobile">
+                            <img src="img/menu.png">
+                        </label>
+                        <ul>
+                            <!-- <a href="index.html">
+                                <li>Beranda</li>
+                            </a>
+                            <a href="#">
+                                <li>Info</li>
+                            </a> -->
+                            <a href="#">
+                                <li>Tutorial</li>
+                            </a>
+                            <a href="#">
+                                <li>Tentang</li>
+                            </a>
+                            <!-- <div class="dropdown">
+                                <button class="dropbtn">Tentang Kami</button>
+                                <div class="dropdown-content1">
+                                    <a href="#vimi">
+                                        <li>Visi & Misi</li>
+                                    </a>
+                                    <a href="#struktur">
+                                        <li>Struktural</li>
+                                    </a>
+                                    <a href="#kontak">
+                                        <li>Hubungi Kami</li>
+                                    </a>
+                                </div>
+                            </div> -->
+                            <!-- <li>
+                                <div class="sosmed">
+                                    <a href="https://api.whatsapp.com/send/?phone=%2B6283188707417&text=Assalamualaikum+kak+mau+nanya%2C+boleh+%3F&app_absent=0"
+                                        target="blank"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="facebook.com/" target="blank"><i class="fa fa-facebook"></i></a>
+                                    <a href="instagram.com/bemumptb" target="blank"><i class="fa fa-instagram"></i></a>
+                                    <a href="gmail.com" target="blank"><i class="fa fa-envelope-o"></i></a>
+                                </div>
+                            </li> -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- sidebar -->
+    <input type="checkbox" id="check">
+    <div class="sidebar">
+        <ul>
+            <a href="#home" style="font-weight: bold;">
+                <li>MENU NAVIGASI</li>
+            </a>
+            <a href="#">
+                <li>Tutorial</li>
+            </a>
+            <a href="#">
+                <li>Tentang</li>
+            </a>
+            <!-- <div class="dropdown2">
+                <button class="dropbtn2">Tentang Kami</button>
+                <div class="dropdown2-content1">
+                    <a href="#vimi">
+                        <li>Visi & Misi</li>
+                    </a>
+                    <a href="#struktur">
+                        <li>Struktural</li>
+                    </a>
+                    <a href="#kontak">
+                        <li>Hubungi Kami</li>
+                    </a>
+                </div>
+            </div> -->
+        </ul>
+    </div>
+    <!-- page2 -->
+    <section class="banner">
+        <ul>
+            <h2 class="animate__animated animate__pulse">
+                GAME
+            </h2>
+            <h3 class="animate__animated animate__bounce">
+                PARIWISATA
+            </h3>
+            <h4 class="tblstar">
+                <a href="game.html" onclick="game();">Ayo Main</a>
+            </h4>
+        </ul>
+    </section>
+    <script type="text/javascript" src="js.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+</body>
+
+</html>
