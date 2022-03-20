@@ -500,6 +500,154 @@ select:focus {
 
 /* Game */
 
+/* Game1 */
+
+.all {
+    margin: auto;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+    display: inline-block;
+    block-size: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.gbr {
+    float: left;
+    position: none;
+}
+
+.gbr img {
+    width: 407px;
+    height: 407px;
+    border: 2px solid black;
+    opacity: .5;
+}
+
+.tgh {
+    color: #003333;
+    text-align: center;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    float: right;
+    right: 0;
+    left: 0;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    padding: 1px;
+    display: block;
+}
+
+.box img {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}
+
+.k11 {
+    clip: rect(0px, 200px, 200px, 0px);
+}
+
+.k12 {
+    clip: rect(0px, 400px, 200px, 200px);
+    margin-left: -200px;
+}
+
+.k21 {
+    clip: rect(200px, 200px, 400px, 0px);
+    margin-top: -200px;
+}
+
+.k22 {
+    clip: rect(200px, 400px, 400px, 200px);
+    margin-top: -200px;
+    margin-left: -200px;
+}
+
+/* Game1 */
+
+/* Game2 */
+
+.pzl {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    background-color: #ff14d8;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px;
+    border: 1px solid #09ff00;
+}
+
+.grid button {
+    background-color: #cfcfcf;
+    color: #003333;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #ff009d;
+    outline: none;
+    cursor: pointer;
+}
+
+.pzlfoot {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pzlfoot button {
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 80px;
+    background-color: #D4EE9F;
+    color: #003333;
+    outline: none;
+    cursor: pointer;
+}
+
+.pzlfoot button:hover {
+    color: #D4EE9F;
+    background-color: #003333;
+}
+
+.pzlfoot span {
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+    color: #D4EE9F;
+    font-weight: bold;
+    margin: auto 0;
+}
+
+.pesn {
+    color: #AA3939;
+    height: 80px;
+}
+
+/* Game2 */
+
 /* slider */
 
 #slider {
@@ -740,7 +888,7 @@ div.desc {
 .responsive {
     padding: 0 10px;
     float: left;
-    width: 22.39999%;
+    width: 23.49999%;
 }
 
 .desc {
@@ -755,4 +903,3 @@ div.desc {
 }
 
 /* galeri */
-

@@ -1,3 +1,4 @@
+// Game
 function rand(max) {
     return Math.floor(Math.random() * max);
 }
@@ -345,7 +346,7 @@ function Player(maze, c, _cellsize, onComplete, sprite = null) {
 
     function drawSpriteCircle(coord) {
         ctx.beginPath();
-        ctx.fillStyle = "yellow";
+        ctx.fillStyle = "green";
         ctx.arc(
             (coord.x + 1) * cellSize - halfCellSize,
             (coord.y + 1) * cellSize - halfCellSize,
@@ -361,7 +362,7 @@ function Player(maze, c, _cellsize, onComplete, sprite = null) {
     }
 
     function drawSpriteImg(coord) {
-        var offsetLeft = cellSize / 50;
+        var offsetLeft = cellSize / 60;
         var offsetRight = cellSize / 25;
         ctx.drawImage(
             sprite,
@@ -520,7 +521,7 @@ window.onload = function () {
             console.log("Runs");
             setTimeout(function () {
                 makeMaze();
-            }, 500);
+            }, 200);
         }
     };
     sprite = new Image();
@@ -538,6 +539,18 @@ window.onload = function () {
 
     finishSprite = new Image();
     finishSprite.src = "img/box.png" +
+        "?" +
+        new Date().getTime();
+    finishSprite.setAttribute("crossOrigin", " ");
+    finishSprite.onload = function () {
+        finishSprite = changeBrightness(1.1, finishSprite);
+        completeTwo = true;
+        console.log(completeTwo);
+        isComplete();
+    };
+
+    finishSprite = new Image();
+    finishSprite.src = "img/box2.png" +
         "?" +
         new Date().getTime();
     finishSprite.setAttribute("crossOrigin", " ");
@@ -583,3 +596,7 @@ function makeMaze() {
         document.getElementById("mazeContainer").style.opacity = "100";
     }
 }
+
+// Game
+
+
