@@ -549,18 +549,6 @@ window.onload = function () {
         isComplete();
     };
 
-    finishSprite = new Image();
-    finishSprite.src = "img/box2.png" +
-        "?" +
-        new Date().getTime();
-    finishSprite.setAttribute("crossOrigin", " ");
-    finishSprite.onload = function () {
-        finishSprite = changeBrightness(1.1, finishSprite);
-        completeTwo = true;
-        console.log(completeTwo);
-        isComplete();
-    };
-
 };
 
 window.onresize = function () {
