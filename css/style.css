@@ -139,6 +139,7 @@ nav ul li:hover {
 .desc:hover {
     color: darkorange;
     transform: scale(1.1);
+    background-color: white;
 }
 
 .sosmed i:hover {
