@@ -14,6 +14,25 @@ body {
     background-color: rgba(245, 245, 245, 0.788);
 }
 
+/* responsive */
+@media only screen and (max-width: 600px){
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    .banner ul h2 {
+        font-size: 18vw;
+    }
+    .banner ul h3 {
+        font-size: 14vw;
+        margin-bottom: 20px;
+    }
+    .tblstar a {
+        font-size: 6vw;
+    }
+}
+/* responsive */
+
 @keyframes autopopup {
     from {
         opacity: 0;
@@ -248,6 +267,11 @@ nav ul li:hover {
     align-items: center;
     z-index: 1;
     cursor: default;
+}
+
+.banner ul {
+    margin: 0 auto;
+    position: relative;
 }
 
 .banner::after {
