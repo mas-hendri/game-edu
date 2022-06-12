@@ -20,6 +20,20 @@ body {
         width: 100%;
         height: 100%;
     }
+    .close{
+        right: 1px;
+        left: 1px;
+        text-align: center;
+        padding: 10px;
+        font-size: 20vw;
+    }
+    .container-popup {
+        width: 100%;
+    }
+    header img {
+        width: 150px;
+        padding: 0px;
+    }
     .banner ul h2 {
         font-size: 18vw;
     }
