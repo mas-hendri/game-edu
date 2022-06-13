@@ -119,6 +119,18 @@ body {
         width: 70vw ;
         height: 40%;
     }
+    
+    #page {
+        height: 250vh;
+        width: 90vw;
+        top: 0;
+    }
+    #mazeContainer {
+        width: 90vw;
+    }
+    #mazeCanvas {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 370px) {
@@ -460,6 +472,13 @@ nav ul li:hover {
 
 /* Game */
 
+#view {
+    width: 100vw;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
 #mazeContainer {
     -webkit-transition-property: opacity;
     transition-property: opacity;
@@ -572,8 +591,8 @@ select:focus {
 #page {
     font-family: "Segoe UI", Arial, sans-serif;
     text-align: center;
-    height: auto;
-    width: auto;
+    height: 80vh;
+    width: 100vw;
     margin: auto;
     z-index: 9999999;
 }
