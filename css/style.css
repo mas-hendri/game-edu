@@ -60,7 +60,7 @@ body {
 
     .banner {
         bottom: 0;
-        height: 104px;
+        height: 10vh;
     }
 
     .close {
@@ -81,7 +81,7 @@ body {
     }
 
     .banner {
-        height: 100vh;
+        height: 150vh;
     }
 
     .banner ul h2 {
@@ -392,7 +392,7 @@ nav ul li:hover {
 /* page2 */
 
 .banner {
-    height: 90vh;
+    height: 94vh;
     background-image: url('../img/ase.jpg');
     background-size: cover;
     position: relative;
