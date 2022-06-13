@@ -104,19 +104,20 @@ body {
         width: 80%;
         height: 80vh;
         margin: auto;
+        overflow-y: auto;
     }
     .column {
-        float: none;
-        width: 80vw;
+        float: right;
+        width: 70vw;
         padding: 10px;
         margin-bottom: 10px;
         align-items: center;
-        right: 0;
+        right: ;
     }
     
     .column img {
-        width: 20vw ;
-        height: 60%;
+        width: 70vw ;
+        height: 40%;
     }
 }
 
@@ -126,11 +127,34 @@ body {
         padding: 20px;
     }
 
-    .column {
-        width: 100%;
-    }
     .row {
+        right: 1;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 80vh;
         margin: auto;
+        overflow-y: auto;
+    }
+    .column {
+        float: right;
+        width: 70vw;
+        padding: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+        right: ;
+    }
+    
+    .column img {
+        width: 70vw ;
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width: 336px) {
+    .container img {
+        width: 26vw;
+        padding: 22px;
     }
 }
 
@@ -260,7 +284,7 @@ nav ul li:hover {
 
 .desc:hover {
     color: darkorange;
-    transform: scale(1.1);
+    transform: scale(0.1);
     background-color: white;
     font-weight: bolder;
 }
