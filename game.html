@@ -21,14 +21,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Signika+Negative&display=swap"
         rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
     <script>
         function openX() {
             document.getElementById("open").innerHTML = "Coming Soon";
         }
     </script>
+    <script>
+        // set delay 10s
+        var delay = 1000000;
+
+        function loader() {
+            setTimeout(function () {
+                $("#loading").hide();
+                $(".loader").hide();
+            }, delay);
+        }
+    </script>
 </head>
 
-<body>
+<body onload="loader()">
+
+    <div id="loading">
+        <span class="loader"></span>
+        <div class="textLoader">
+            <center>
+                <b>Memuat</b>
+            </center>
+        </div>
+    </div>
+
     <div id="home"></div>
     <div class="fixed">
         <header>
@@ -134,8 +159,8 @@
                             <br>
                             <h5 style="text-align: left;">
                                 [ Gunakan Kursor pada keyboard untuk mengarahkan karakter ]
-                            </h6>
-                            <br>
+                                </h6>
+                                <br>
                         </h4>
                         <h4 style="text-align: left;">
                             Untuk pengguna Smartphone
