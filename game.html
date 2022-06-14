@@ -73,11 +73,33 @@
             <div id="page">
                 <div id="Message-Container">
                     <div id="message">
-                        <h1>Selamat !</h1>
+                        <br>
+                        <h1>Selamat !!!</h1>
                         <p>............................................</p>
                         <p>Anda telah menemukan</p>
                         <p>.</p>
-                        <p>Hadiah</p>
+                        <p style="font-weight: bolder; font-size: 10ps;">Hadiah</p>
+                        <p>.</p>
+                        <p id="moves"></p>
+                        <p>............................................</p>
+                        <p>.</p>
+                        <!-- <input id="open" type="button" onclick="openX()" value="Buka"> -->
+                        <a href="gift.html"><input id="open" type="button" value="Buka"></a>
+                        <p>.</p>
+                        <p>.</p>
+                        <input id="okBtn" type="button" onclick="makeMaze(), toggleVisablity('Message-Container')"
+                            value="Lanjut">
+                    </div>
+                </div>
+
+                <!-- <div id="Gift-Container">
+                    <div id="message">
+                        <br>
+                        <h1>Selamat !!!</h1>
+                        <p>............................................</p>
+                        <p>Anda telah menemukan</p>
+                        <p>.</p>
+                        <p style="font-weight: bolder; font-size: 10ps;">Hadiah</p>
                         <p>.</p>
                         <p id="moves"></p>
                         <p>............................................</p>
@@ -88,7 +110,8 @@
                         <input id="okBtn" type="button" onclick="makeMaze(), toggleVisablity('Message-Container')"
                             value="Lanjut">
                     </div>
-                </div>
+                </div> -->
+
                 <div id="menu">
                     <div class="custom-select">
                         <select id="diffSelect">
@@ -105,9 +128,9 @@
                         <canvas id="mazeCanvas" class="border" height="1100" width="1100"></canvas>
                         <hr>
                         <br>
-                        <h4 style="text-align: left;">
+                        <h4 style="text-align: left; font-weight: 100px;">
                             <br>
-                            [ Untuk pengguna Komputer ]
+                            Untuk pengguna Desktop
                             <br>
                             <h5 style="text-align: left;">
                                 [ Gunakan Kursor pada keyboard untuk mengarahkan karakter ]
@@ -115,10 +138,10 @@
                             <br>
                         </h4>
                         <h4 style="text-align: left;">
-                            [ Untuk pengguna Smartphone ]
+                            Untuk pengguna Smartphone
                             <br>
                             <h5 style="text-align: left;">
-                                [ Geser layar untuk mengarahkan karakter ]
+                                [ Usap layar untuk mengarahkan karakter ]
                             </h5>
                         </h4>
                     </div>
