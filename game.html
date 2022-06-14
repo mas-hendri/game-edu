@@ -22,25 +22,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Signika+Negative&display=swap"
         rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
-
     <script>
         function openX() {
             document.getElementById("open").innerHTML = "Coming Soon";
         }
     </script>
-    <script>
-        // set delay 10s
-        var delay = 1000000;
 
+    <script>
+        // var delay = 100000;
         function loader() {
-            setTimeout(function () {
-                $("#loading").hide();
-                $(".loader").hide();
-            }, delay);
+            setTimeout(loader,
+                // {
+                //     $("#loading").hide();
+                //     $(".loader").hide();
+                //     $(".textLoader").hide();
+                // },
+
+                10000);
         }
     </script>
+
 </head>
 
 <body onload="loader()">
@@ -77,6 +78,7 @@
             </div>
         </header>
     </div>
+
     <!-- sidebar -->
     <input type="checkbox" id="check">
     <div class="sidebar">
@@ -177,6 +179,9 @@
                 src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script type="text/javascript"
                 src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+
+
+
         </ul>
     </section>
     <script>
@@ -184,6 +189,10 @@
             window.alert("Hadiah akan segera hadir . . . ");
         }
     </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
