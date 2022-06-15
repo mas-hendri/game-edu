@@ -29,23 +29,38 @@
     </script>
 
     <script>
-        // var delay = 100000;
-        function loader() {
-            setTimeout(loader,
-                // {
-                //     $("#loading").hide();
-                //     $(".loader").hide();
-                //     $(".textLoader").hide();
-                // },
+        // var delay = 10000;
 
-                10000);
-        }
+        // $(window).on('load', function () {
+        //     setTimeout(function () {
+        //         $("#loading").hide();
+        //         $(".loader").hide();
+        //         $("textLoader").hide();
+        //     }, delay);
+        // });
+        // var delay = 100000;
+             
+        //     function loader() {
+        //         setTimeout(function(){
+        //             $("#loading").hide();
+        //             $(".loader").hide();
+        //         },delay);
+        //     };
+    </script>
+
+    <script>
+        // $(document).ready(function () {
+        //     $("#loading").fadeOut;
+        // })
+        function loader(){
+            $('#loading').hide;
+        };
+        setTimeout(loader, 1000);
     </script>
 
 </head>
 
-<body onload="loader()">
-
+<body>
     <div id="loading">
         <span class="loader"></span>
         <div class="textLoader">
@@ -56,6 +71,7 @@
     </div>
 
     <div id="home"></div>
+
     <div class="fixed">
         <header>
             <div class="container">
@@ -190,7 +206,7 @@
         }
     </script>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
