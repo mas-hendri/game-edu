@@ -264,7 +264,7 @@ div.desc {
     }
 
     #mazeContainer {
-        width: 90vw;
+        width: 80vw;
     }
 
     #mazeCanvas {
@@ -359,57 +359,6 @@ nav ul li:hover {
     background-color: white;
     font-weight: bolder;
 }
-
-/* sidebar */
-
-.sidebar {
-    text-align: center;
-    position: fixed;
-    /* top: 80px; */
-    left: 0;
-    right: 0;
-    top: -500px;
-    bottom: auto;
-    background-color: white;
-    z-index: 998;
-    margin: auto;
-    padding: 15px;
-}
-
-.sidebar ul {
-    margin-top: 5px;
-}
-
-.sidebar ul a li {
-    display: block;
-    padding-bottom: 18px;
-    padding-top: 18px;
-    color: rgb(0, 94, 255);
-    /* border: 2px solid rgb(0, 94, 255); */
-    border-radius: 50px;
-    font-size: 18px;
-    font-family: 'Signika Negative', sans-serif;
-}
-
-.sidebar ul li:hover {
-    background-color: dodgerblue;
-    color: white;
-}
-
-#check {
-    display: none;
-}
-
-#check:checked~.sidebar {
-    top: 75px;
-    transition: 1s;
-}
-
-#check~.sidebar {
-    transition: 1s;
-}
-
-/* sidebar */
 
 /* fixed */
 
@@ -521,13 +470,16 @@ nav ul li:hover {
     transition-duration: .01s;
     -webkit-transition-timing-function: linear;
     transition-timing-function: linear;
-    top: 10px;
+    top: 100px;
+    left: ;
+    right: 10px;
     opacity: 0;
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.705);
     margin: auto;
     z-index: 9999;
     padding: 10px;
+    border-radius: 10px;
 }
 
 #mazeContainer h4 {
@@ -624,11 +576,12 @@ select:focus {
     width: 300px;
     height: 300px;
     position: fixed;
-    top: 50%;
-    left: 50%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
     padding: 10px;
-    margin-left: -150px;
-    margin-top: -150px;
+    margin: auto;
 }
 
 #page {
@@ -963,8 +916,21 @@ table {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-/* slideer */
+/* slider */
 
 #home {
     padding-top: 50px;
 }
+
+/* gift */
+
+.bgcontent {
+    width: 90%;
+    height: 80vh;
+    margin-top: 5%;
+    background-color: rgba(71, 227, 255, 0.527);
+    border-radius: 15px;
+    box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.514);
+}
+
+/* gift */
