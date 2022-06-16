@@ -189,6 +189,17 @@ div.desc {
 }
 
 @media only screen and (max-width: 600px) {
+    .fixed header {
+        height: 60px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .navbar {
+        padding: 1px;
+        top: 0;
+        margin-top: -10px;
+    }
+
     body {
         width: 100%;
         height: 100%;
@@ -213,8 +224,8 @@ div.desc {
     }
 
     .container img {
-        width: 150px;
-        padding: 10px;
+        width: 115px;
+        padding: 8px;
     }
 
     .banner {
@@ -273,9 +284,20 @@ div.desc {
 }
 
 @media only screen and (max-width: 370px) {
+    .fixed header {
+        height: 55px;
+        background-color: rgb(255, 255, 255);
+    }
+
     .container img {
         width: 30vw;
-        padding: 20px;
+        padding: 6px;
+    }
+
+    .navbar {
+        padding: 1px;
+        top: 0;
+        margin-top: -10px;
     }
 
     .row {
@@ -303,9 +325,21 @@ div.desc {
 }
 
 @media only screen and (max-width: 336px) {
+
+    .fixed header {
+        height: 55px;
+        background-color: rgb(255, 255, 255);
+    }
+
     .container img {
-        width: 26vw;
-        padding: 22px;
+        width: 30vw;
+        padding: 6px;
+    }
+
+    .navbar {
+        padding: 1px;
+        top: 0;
+        margin-top: -10px;
     }
 }
 
@@ -946,7 +980,7 @@ table {
     right: ;
     bottom: ;
     width: 90%;
-    height: 80%;
+    height: 90%;
     color: rgb(255, 255, 255);
     border-radius: 10px;
     background-color: black;
@@ -956,17 +990,17 @@ table {
     visibility: ;
     background-color: #f7f7f7;
     border-radius: 10%;
-    margin: 18px auto;
+    margin: 8px auto;
     width: 70px;
-    height: 5px;
-    border: 1px solid rgba(78, 78, 78, 0.87);
+    height: 3px;
+    border: 1px solid rgba(48, 48, 48, 0.87);
 }
 
 .tombol {
-    visibility: ;
+    visibility: hidden;
     background-color: #f7f7f7;
     border-radius: 100%;
-    margin: 17px auto;
+    margin: 1.7vh auto;
     width: 45px;
     height: 45px;
     border: 5px solid rgba(78, 78, 78, 0.87);
@@ -976,7 +1010,7 @@ table {
     transform: scale(1.1);
     background-color: #fafafa;
     border: 2px solid rgba(78, 78, 78, 0.87);
-    margin: 25px auto;
+    margin: 2vh auto;
     width: 38px;
     height: 38px;
 }
