@@ -422,7 +422,7 @@ nav ul li:hover {
     color: lavender;
     z-index: 1;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.592);
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .banner h3 {
@@ -928,9 +928,57 @@ table {
     width: 90%;
     height: 80vh;
     margin-top: 5%;
-    background-color: rgba(71, 227, 255, 0.527);
-    border-radius: 15px;
+    padding: 20px 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
     box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.514);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: table-column;
+}
+
+.box {
+    padding: 10px;
+    margin: auto;
+    top: ;
+    left: ;
+    right: ;
+    bottom: ;
+    width: 90%;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: black;
+}
+
+.ear {
+    visibility: ;
+    background-color: #f7f7f7;
+    border-radius: 10%;
+    margin: 18px auto;
+    width: 70px;
+    height: 5px;
+    border: 1px solid rgba(78, 78, 78, 0.87);
+}
+
+.tombol {
+    visibility: ;
+    background-color: #f7f7f7;
+    border-radius: 100%;
+    margin: 17px auto;
+    width: 45px;
+    height: 45px;
+    border: 5px solid rgba(78, 78, 78, 0.87);
+}
+
+.tombol:hover {
+    transform: scale(1.1);
+    background-color: #fafafa;
+    border: 2px solid rgba(78, 78, 78, 0.87);
+    margin: 25px auto;
+    width: 38px;
+    height: 38px;
 }
 
 /* gift */
