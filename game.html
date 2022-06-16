@@ -28,9 +28,18 @@
         }
     </script>
 
+    <script>
+        function loader() {
+            setTimeout(function () {
+                $("#loading").hide();
+                $(".loader").hide();
+            }, 1000);
+        };
+    </script>
+
 </head>
 
-<body>
+<body onload="loader()">
 
     <div id="loading">
         <span class="loader"></span>
@@ -49,9 +58,6 @@
                 <img src="img/logo.png">
                 <div class="navbar">
                     <nav>
-                        <label for="check" class="mobile">
-                            <img src="img/menu.png">
-                        </label>
                         <ul>
                             <a href="pilih.html">
                                 <li>Kembali</li>
@@ -66,21 +72,6 @@
         </header>
     </div>
 
-    <!-- sidebar -->
-    <input type="checkbox" id="check">
-    <div class="sidebar">
-        <ul>
-            <a href="#home" style="font-weight: bold;">
-                <li>MENU NAVIGASI</li>
-            </a>
-            <a href="pilih.html">
-                <li>Kembali</li>
-            </a>
-            <a href="#">
-                <li>Tutorial</li>
-            </a>
-        </ul>
-    </div>
     <!-- page2 -->
     <section class="banner">
         <ul>
@@ -162,13 +153,14 @@
                 </div>
             </div>
             <script type="text/javascript" src="js.js"></script>
-            <script type="text/javascript"
-                src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <!-- <script type="text/javascript"
+                src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
             <script type="text/javascript"
                 src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
 
 
             <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
         </ul>

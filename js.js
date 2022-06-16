@@ -586,17 +586,3 @@ function makeMaze() {
 }
 
 // Game
-
-// var delay = 100;
-
-// function loader() {
-//     setTimeout(function () {
-//         $("#loading").hide();
-//         $(".loader").hide();
-//     }, delay);
-// };
-
-$("#loading").onload(function() {
-    $("#loading").hide();
-    $(".loader").setTimeout(100).hide();
-});
