@@ -634,19 +634,19 @@ select:focus {
 }
 
 #Message-Container2 #message {
-    background-color: rgb(255, 114, 26);
-    border-radius: 10%;
-    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.705);
-    width: 300px;
-    height: 300px;
-    position: fixed;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4%;
+    width: 140px;
+    height: 100px;
+    position: absolute;
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
-    padding: 10px;
+    padding: 30px;
     margin: auto;
 }
+
 /* captcha */
 
 #page {
