@@ -629,15 +629,15 @@ select:focus {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.482);
     z-index: 99999;
 }
 
 #Message-Container2 #message {
-    background-color: rgb(255, 255, 255);
-    border-radius: 4%;
-    width: 140px;
-    height: 100px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 0%;
+    width: 120px;
+    height: 50px;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -645,6 +645,10 @@ select:focus {
     right: 0;
     padding: 30px;
     margin: auto;
+}
+
+#moves2 {
+    color: rgb(201, 201, 201);
 }
 
 /* captcha */
@@ -990,6 +994,21 @@ table {
 /* gift */
 
 .bgcontent {
+    width: 90%;
+    height: fit-content;
+    margin-top: 2%;
+    padding: 20px 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: px;
+    box-shadow: 2px 5px 5px 2px rgba(88, 88, 88, 0.514);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: table-column;
+    overflow-y: scroll;
+}
+
+.bgcontent2 {
     width: 90%;
     height: 86vh;
     margin-top: 2%;
