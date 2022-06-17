@@ -45,7 +45,19 @@ function toggleVisablity(id) {
         document.getElementById(id).style.visibility = "visible";
     }
 }
+// captcha
+function displayVictoryMess2(moves2) {
+    toggleVisablity2("Message-Container2");
+}
 
+function toggleVisablity2(id) {
+    if (document.getElementById(id).style.visibility == "visible") {
+        document.getElementById(id).style.visibility = "hidden";
+    } else {
+        document.getElementById(id).style.visibility = "visible";
+    }
+}
+// captcha
 function Maze(Width, Height) {
     var mazeMap;
     var width = Width;
