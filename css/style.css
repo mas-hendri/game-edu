@@ -224,7 +224,7 @@ div.desc {
     }
 
     .container img {
-        width: 250px;
+        width: 240px;
         padding: 8px;
     }
 
@@ -290,7 +290,7 @@ div.desc {
     }
 
     .container img {
-        width: 100vw;
+        width: 95vw;
         padding: 6px;
     }
 
@@ -332,7 +332,7 @@ div.desc {
     }
 
     .container img {
-        width: 100vw;
+        width: 95vw;
         padding: 6px;
     }
 
@@ -357,7 +357,7 @@ header {
 }
 
 header img {
-    width: 250px;
+    width: 240px;
     padding: 10px;
 }
 
