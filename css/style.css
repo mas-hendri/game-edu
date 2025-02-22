@@ -51,9 +51,10 @@ th {
     color: white;
 }
  
-.kiri{
-	width: 20%;
+.kiri .imgo{
+	width: 200px;
 	float: left;
+    padding-left: 20%;
 }
  
 .kanan{
