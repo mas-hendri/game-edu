@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -12,7 +11,91 @@ a {
 
 body {
     background-color: rgba(245, 245, 245, 0.788);
+    font-family: monospace;
+	font-size: 13pt;
 }
+
+/* kotak biodata */
+.table {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+th {
+	text-align: left;
+}
+ 
+.imgo {
+	width: 70%;
+	margin-bottom: 10px;
+}
+ 
+.kotak {
+	border: 5px solid rgb(255, 255, 255);
+	width: 90%;
+	margin: auto;
+	padding: auto;
+    align-items: center;
+}
+ 
+.judul{
+	text-align: center;
+    width: 60%;
+    background: yellow;
+    color: grey;
+}
+ 
+.blok{
+	overflow: hidden;
+    color: white;
+}
+ 
+.kiri{
+	width: 20%;
+	float: left;
+}
+ 
+.kanan{
+	width: 70%;
+	padding:0px 20px;	
+	float: left;
+}
+ 
+@media only screen and (max-width: 768px) {
+	.kotak{
+		width: 100%;
+		padding: 0px;
+		border: none;
+	}
+	
+	.kiri{
+		width: 100%;
+	}
+ 
+	.kanan{
+		width: 100%;
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.kotak{
+		width: 100%;
+		padding: 0px;
+		border: none;
+	}
+	
+	.kiri{
+		width: 100%;
+	}
+ 
+	.kanan{
+		width: 100%;
+		padding: 0;
+	}
+}
+/* kotak biodata */
 
 /* kolom pilihan game */
 
@@ -233,7 +316,7 @@ div.desc {
     }
 
     .banner ul h2 {
-        font-size: 18vw;
+        font-size: 3vw;
     }
 
     .banner ul h3 {
@@ -450,7 +533,7 @@ nav ul li:hover {
 }
 
 .banner h2 {
-    font-size: 18ex;
+    font-size: 5ex;
     font-family: 'Allerta Stencil';
     text-align: center;
     color: lavender;
@@ -990,64 +1073,3 @@ table {
 #home {
     padding-top: 50px;
 }
-
-/* gift */
-
-.bgcontent {
-    width: 90%;
-    height: fit-content;
-    margin-top: 2%;
-    padding: 20px 5px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    box-shadow: 2px 5px 5px 2px rgba(88, 88, 88, 0.514);
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    display: table-column;
-    overflow-y: scroll;
-}
-
-.bgcontent2 {
-    width: 90%;
-    height: 86vh;
-    margin-top: 2%;
-    padding: 20px 5px;
-    background-color: rgb(255, 255, 255);
-    border-radius: px;
-    box-shadow: 2px 5px 5px 2px rgba(88, 88, 88, 0.514);
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    display: table-column;
-    overflow-y: scroll;
-}
-
-.box {
-    padding: 10px;
-    margin: auto;
-    top: ;
-    left: ;
-    right: ;
-    bottom: ;
-    width: 90%;
-    height: 100%;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    background-color: black;
-}
-
-.iscen {
-    margin: auto;
-    padding: 0 12px;
-    text-align: ;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: normal;
-    line-height: 25px;
-}
-
-.iscen img {
-    width: 84vw;
-}
-
-/* gift */
