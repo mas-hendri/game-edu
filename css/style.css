@@ -35,8 +35,8 @@ th {
  
 .kotak {
 	border: 5px solid rgb(255, 255, 255);
-	width: 90%;
-	margin: auto;
+	width: 80%;
+	margin: 10px;
 	padding: auto;
     align-items: center;
 	background: white;
@@ -51,7 +51,7 @@ th {
  
 .blok{
 	overflow: hidden;
-    color: white;
+    color: grey;
 }
  
 .kiri .imgo{
